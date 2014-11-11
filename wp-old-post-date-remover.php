@@ -39,7 +39,7 @@ function wp_OPDR_is_Old_Enough ()
 		$difference = round( ( $today - $articledate ) / ( 24*60*60 ),0);
 		$OPDRinput = get_option( 'opdr_days_to_show_date' );
 		            
-		        if ( $difference >= $OPDRinput && ( is_single() ) ) {
+		        if ( $difference >= $OPDRinput && ( is_single() || is_archive() ) ) {
 			wp_enqueue_style( 'remove-style-meta', plugins_url( 'css/OPDRstyle.css', __FILE__ ), false, '1.0', 'all' );
 		} else {
 			
