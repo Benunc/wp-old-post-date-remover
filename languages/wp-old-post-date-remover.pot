@@ -1,0 +1,101 @@
+# Copyright (C) 2015 WP Old Post Date Remover
+# This file is distributed under the same license as the WP Old Post Date Remover package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Old Post Date Remover 3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-old-post-date-"
+"remover\n"
+"POT-Creation-Date: 2015-07-21 12:23:53+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: ../OPDR-options.php:45
+msgid "How many days would you like to display the date?"
+msgstr ""
+
+#: ../OPDR-options.php:67
+msgid "Add the number of DAYS you'd like to display the date on your recent posts."
+msgstr ""
+
+#: ../OPDR-options.php:78
+msgid "Old Post Date Remover Settings"
+msgstr ""
+
+#: ../OPDR-options.php:85
+msgid "About the Author"
+msgstr ""
+
+#: ../OPDR-options.php:89
+#, php-format
+msgid ""
+"This plugin is developed by <a href=\"%s\">Ben Meredith</a>. I am a freelance "
+"developer specializing in <a href=\"%s\">outrunning and outsmarting "
+"hackers</a>."
+msgstr ""
+
+#: ../OPDR-options.php:90
+msgid "Sign up to receive my FREE web strategy guide"
+msgstr ""
+
+#: ../OPDR-options.php:91
+msgctxt "placeholder text for input field"
+msgid "Your Email Address"
+msgstr ""
+
+#: ../OPDR-options.php:92
+msgid "No Spam. One-click unsubscribe in every message"
+msgstr ""
+
+#: ../OPDR-options.php:108
+#, php-format
+msgid ""
+"The best way you can support this and other plugins is to <a "
+"href=%s>donate</a>"
+msgstr ""
+
+#: ../OPDR-options.php:112
+#, php-format
+msgid "The second best way is to <a href=%s>leave an honest review.</a>"
+msgstr ""
+
+#: ../OPDR-options.php:115
+msgid "Did this plugin save you enough time to be worth some money?"
+msgstr ""
+
+#: ../OPDR-options.php:116
+msgid "Click here to buy me a Coke to say thanks."
+msgstr ""
+
+#: ../OPDR-options.php:126
+msgid "Settings"
+msgstr ""
+
+#: ../OPDR-options.php:130
+msgid "Save Changes"
+msgstr ""
+
+#: ../OPDR-options.php:133
+#, php-format
+msgid ""
+"If you are having any difficulty, please post your issue in the <a "
+"href=%s>support forum</a>, where I actively help!"
+msgstr ""
+
+#: ../wp-old-post-date-remover.php:55
+msgctxt "text for the link on the plugins page"
+msgid "Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Old Post Date Remover"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Remove the date on older posts and pages with no code. You select the number "
+"of days!"
+msgstr ""

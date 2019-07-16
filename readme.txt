@@ -1,22 +1,28 @@
 === Plugin Name ===
 Contributors: ben.meredith@gmail.com
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HDSGWRJYFQQNJ
-Tags: date remover, post, old post, evergreen, plugin, meta, posts, single, CSS, wp_enqueue_style
+Donate link: http://benlikes.us/donate
+Tags: date remover, post, old post, evergreen, plugin, meta, posts, single, CSS, wp_enqueue_style, translate-me, español,
 Requires at least: 3.0.1
-Tested up to: 4.0
-Stable tag: 2.1
+Author: Ben Meredith
+Author URI: http://benandjacq.com
+Plugin URI: http://benandjacq.com/wordpress-plugin-wp-old-post-date-remover/
+Tested up to: 4.6
+Stable tag: 3.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Removes the date stamp from older posts (you choose how old), while leaving the date stamp on newer posts. Ideal for blogs with evergreen content.
 
+
 == Description ==
 
-The WP Old Post Date Remover removes the distractingly old date from otherwise perfectly good evergreen content on your WordPress blog.
+WP Old Post Date Remover removes the distractingly old date from otherwise perfectly good evergreen content on your WordPress blog. 
 
-You spent time creating great content, and now potential readers and customers are getting sidetracked by the fact that it is 13 months old.
+This plugin does not deal with the date on SERPs or archive pages. Single posts only.
 
-Install the WP Old Post Date Remover plugin, activate it, and pick the length of days you'd like to show the dates on your posts. 
+You spent the time creating great content, and now readers and potential customers are getting sidetracked by the fact that it's 13 months old.
+
+Install the WP Old Post Date Remover plugin, activate it, and pick the number of days you'd like to show the dates on your posts. 
 
 NOTE: if your theme does not place the date within its own span class or div class, (or does that annoying thing where they put the word "on" outside of the date's span or div) this plugin will not work, out of the box. But with a few extra lines of code, we can get you working in no time. Message me in the forums.
 
@@ -36,7 +42,7 @@ Please rate the plugin, and don't be afraid of the donate button! I am active in
 == Frequently Asked Questions ==
 
 = Can I hide the date on the blog home page, or archive pages? =
-In my opinion, there's no need to hide the date on the home page (of a regularly updated blog), and this plugin will likely never support that functionality. Archive pages (month, day, year, category, tag, post type, etc) may be added in the future, but they'll be all or nothing, i.e. the dates will show on all the posts in that archive or none of the posts in that archive. To test that functionality on your site, you can download the most recent beta version from https://wordpress.org/plugins/wp-old-post-date-remover/download/ and install it on your site. Message me with questions in the forums.
+The short answer is no. For a longer explanation, see [this response](https://wordpress.org/support/topic/i-love-the-simplicity-of-this-plugin?replies=2#post-7489264) to a kind review asking for that functionality.
 
 = What do I do if I install the plugin and it's not working? =
 
@@ -59,7 +65,56 @@ No, because it simply hides the date from readers using CSS, it has no effect wh
 1. Before WP Old Post Date Remover
 1. After WP Old Post Date Remover
 1. Settings page (version 2.0)
+
 == Changelog ==
+
+= 3.0.6 = 
+* added `post-meta-date` for compatibility with the Rowling Theme
+* added `dd.create` for compatibility with the RT Responsive theme on Themeforest.
+* changed some back-end links to go to my new and awesome donate page at http://benlikes.us/donate
+
+= 3.0.5 =
+* added `.entry-meta .published` for compatibility with the evolve theme.
+
+
+= 3.0.4 =
+* added `.date` for compatibility with the Builder theme.
+
+= 3.0.3 =
+* added `.post_meta .calendar` for compatibility with the Aqua Theme.
+
+= 3.0.2 =
+* added `.meta time` for compatibility with Crevision theme.
+
+= 3.0.1 =
+* changed formatting for standards compatibility
+
+= 3.0 =
+* Added i18n, making the plugin able to be translated into other languages.
+* added Spanish language files
+* overhauled the design of the settings page
+
+= 2.2.6 = 
+* added `time,` and `p.post-meta.date-extra,` for compatibility with the Blaskan and OptimizePress themes, respectively.
+
+= 2.2.5 = 
+* added `.meta time` for compatibility with Sampression theme.
+
+= 2.2.4 = 
+* added `i.icon-calendar.mi` and `time.post_date.date.updated` for compatibility with SevenMag theme by ThemeForest.
+
+= 2.2.3 = 
+* added `.cb-date.cb-byline-element` for compatibility with Valenti theme.
+
+= 2.2.2 =
+
+* added `span.meta-date` for compatibility with invoda themes
+
+= 2.2.1 =
+* added `span.posted-on` for compatibility with the Twenty Fifteen theme.
+
+= 2.2 = 
+* bug fixes related to archive pages not performing correctly. Now the plugin only affects single posts (again).
 
 = 2.1 = 
 * changed inefficient handling of php date function to decrease server load.

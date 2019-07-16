@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Old Post Date Remover 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-21 12:23:53+00:00\n"
+"PO-Revision-Date: Tue Jul 21 2015 09:02:38 GMT-0400 (EDT)\n"
+"Last-Translator: admin <ben@benandjacq.com>\n"
+"Language: Spanish (Spain)\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Loco-Target-Locale: es_ES"
+
+#: ../OPDR-options.php:45
+msgid "How many days would you like to display the date?"
+msgstr "¿Por cuántos días te gustaría mostrar la fecha?"
+
+#: ../OPDR-options.php:67
+msgid "Add the number of DAYS you'd like to display the date on your recent posts."
+msgstr ""
+"Añadir el número de días que le gustaría mostrar la fecha en sus entradas "
+"recientes."
+
+#: ../OPDR-options.php:78
+msgid "Old Post Date Remover Settings"
+msgstr "Ajustes Por Old Post Date Remover"
+
+#: ../OPDR-options.php:85
+msgid "About the Author"
+msgstr "Sobre el Autor"
+
+#: ../OPDR-options.php:89
+#, php-format
+msgid ""
+"This plugin is developed by <a href=\"%s\">Ben Meredith</a>. I am a freelance "
+"developer specializing in <a href=\"%s\">outrunning and outsmarting "
+"hackers</a>."
+msgstr ""
+"Este plugin es desarrollado por <a href=\"%s\">Ben Meredith</a>. Soy un "
+"desarrollador freelance especializada en <a href=\"%s\">vencer y engañando a "
+"los hackers</a>."
+
+#: ../OPDR-options.php:90
+msgid "Sign up to receive my FREE web strategy guide"
+msgstr "Regístrese para recibir a mi guía de estrategia web gratis (Solamente Inglés)"
+
+#: ../OPDR-options.php:91
+msgctxt "placeholder text for input field"
+msgid "Your Email Address"
+msgstr "Su dirección email"
+
+#: ../OPDR-options.php:92
+msgid "No Spam. One-click unsubscribe in every message"
+msgstr "No Spam. Darse de baja de un clic en cada mensaje"
+
+#: ../OPDR-options.php:108
+#, php-format
+msgid ""
+"The best way you can support this and other plugins is to <a "
+"href=%s>donate</a>"
+msgstr ""
+"La mejor manera en que usted puede apoyar este y otros plugins es <a "
+"href=%s>donar</a>"
+
+#: ../OPDR-options.php:112
+#, php-format
+msgid "The second best way is to <a href=%s>leave an honest review.</a>"
+msgstr "﻿La segunda mejor manera es <a href=%s>dejar una revisión honesta.</a>"
+
+#: ../OPDR-options.php:115
+msgid "Did this plugin save you enough time to be worth some money?"
+msgstr "¿Este plugin le ahorra suficiente tiempo para valer algo de dinero?"
+
+#: ../OPDR-options.php:116
+msgid "Click here to buy me a Coke to say thanks."
+msgstr "Haga clic aquí y compre una Coca-Cola para decir gracias."
+
+#: ../OPDR-options.php:126
+msgid "Settings"
+msgstr "Ajustes"
+
+#: ../OPDR-options.php:130
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+#: ../OPDR-options.php:133
+#, php-format
+msgid ""
+"If you are having any difficulty, please post your issue in the <a "
+"href=%s>support forum</a>, where I actively help!"
+msgstr ""
+"Si tiene cualquier dificultad, por favor enviar su tema en <a href=%s>los "
+"foros de soporte</a>, donde me ayudan activamente."
+
+#: ../wp-old-post-date-remover.php:55
+msgctxt "text for the link on the plugins page"
+msgid "Settings"
+msgstr "Ajustes"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Old Post Date Remover"
+msgstr "WP Old Post Date Remover"
+
+#. Description of the plugin/theme
+msgid ""
+"Remove the date on older posts and pages with no code. You select the number "
+"of days!"
+msgstr ""
+"Retire la fecha en las entradas y las páginas más antiguas con ningún código."
+" Se selecciona el número de días!"
