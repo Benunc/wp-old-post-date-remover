@@ -4,10 +4,9 @@ Donate link: http://benlikes.us/donate
 Tags: date remover, post, old post, evergreen, plugin, meta, posts, single, CSS, wp_enqueue_style, translate-me, español,
 Requires at least: 3.0.1
 Author: Ben Meredith
-Author URI: http://benandjacq.com
-Plugin URI: http://benandjacq.com/wordpress-plugin-wp-old-post-date-remover/
-Tested up to: 4.6
-Stable tag: 3.0.6
+Author URI: http://wpsteward.com
+Tested up to: 5.2
+Stable tag: 3.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,6 +66,9 @@ No, because it simply hides the date from readers using CSS, it has no effect wh
 1. Settings page (version 2.0)
 
 == Changelog ==
+= 3.0.7 =
+* updated for Divi compatibility
+* tested up to WordPress 5.2
 
 = 3.0.6 = 
 * added `post-meta-date` for compatibility with the Rowling Theme
